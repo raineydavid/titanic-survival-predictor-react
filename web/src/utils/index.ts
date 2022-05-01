@@ -1,1 +1,1 @@
-export const API_URL = 'https://titanicpredictorshvm.herokuapp.com/';
+export const API_URL = './api/';

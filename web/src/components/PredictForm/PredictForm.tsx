@@ -29,7 +29,7 @@ type FormData = {
 const PredictForm: React.FC = () => {
   const [result, setResult] = useState(false);
   const [status, setStatus] = useState<InlineLoadingStatus>('active');
-  const [statusText, setStatusText] = useState('Wating for input');
+  const [statusText, setStatusText] = useState('Waiting for input');
 
   const { register, handleSubmit } = useForm<FormData>();
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
